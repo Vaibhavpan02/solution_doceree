@@ -1,0 +1,14 @@
+ID,Serial number,1001,integer
+DEVICETYPE,"The type of device used by the user, such as desktop, mobile, tablet, etc.","desktop, mobile, tablet, smartphone",String
+PLATFORM_ID,Unique identifier associated with the platform used by the user.,"12345, PLATFORM_XYZ, 987654321",Numeric
+BIDREQUESTIP,IP address from where the request originated.,"192.168.0.1, 10.0.0.2, 172.16.0.100",String
+USERPLATFORMUID,Unique identifier of the user on a platform.,"user123, platform_user_456, 789user",String
+USERCITY,City of the user.,"New York, London, Tokyo",String
+USERZIPCODE,User's ZIP code.,"12345, 54321, 98765",String
+USERAGENT,"User's browser agent, providing information about the browser and operating system.","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",String
+PLATFORMTYPE,"Type of platform being used, such as Electronic Health Record (EHR), e-prescribing, medical journal, etc.","EHR, e-prescribing, medical journal, telemedicine",String
+CHANNELTYPE,"The channel through which the user interacts with the platform, such as a website or email.","website, email, mobile app, SMS",String
+URL,URL from which the request originated.,https://example.com,String
+KEYWORDS,Keywords appear in URLs,"healthcare, doctor, medicine, patient care",String
+TAXONOMY,"Code for specialization, which could refer to a specific medical field or category.","cardiology, dermatology, pediatrics, oncology",String
+IS_HCP,Indicates whether the user is a Healthcare Professional (HCP) or not.,"1, 0",Boolean
